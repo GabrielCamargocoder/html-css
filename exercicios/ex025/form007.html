@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Exemplo de formulário</h1>
+
+    <form action="cadasrto.php" method="get">
+
+        <label for="ies">Estado</label>
+        <select name="estado" id="ies">
+            <option value="MA">Maranhão</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+        </select>
+        
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="ilst">
+
+            <datalist id="ilst">
+                <option >Administrador</option>
+                <option >Programador</option>
+                <option >Advagado</option>
+
+            </datalist>
+        </p>
+
+        <p><input type="submit" value="Enviar"></p>
+        <p><input type="reset" value="Limpar"></p>
+    </form>
+    
+</body>
+</html>
