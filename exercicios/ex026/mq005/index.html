@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>MEdia Query</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">  menu</span>
+        <menu id="itens">
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Duvida</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testanto Media Queries</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iure quaerat beatae fugit, aut, neque voluptatibus voluptatem velit nisi illum temporibus totam illo sequi. Adipisci ea ipsa perferendis est commodi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia pariatur tempora accusamus fugit non amet id molestiae autem voluptatibus natus, rem quae alias illum ipsam doloremque sunt aspernatur, ut saepe?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quam in officia voluptates totam illum molestias. Eligendi ad, quae libero, tenetur ullam eius quis officia assumenda asperiores laudantium adipisci quisquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quisquam tenetur possimus laudantium harum culpa voluptatem eligendi repudiandae adipisci quaerat numquam, laboriosam cum. Maiores, odit sequi! At quibusdam dolores totam.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                 itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+           
+
+        }
+    </script>
+    
+</body>
+</html>
